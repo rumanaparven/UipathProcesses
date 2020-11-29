@@ -1,0 +1,66 @@
+{
+  "name": "ScrapTableFromWebsite",
+  "description": "Blank Process",
+  "main": "ScreenScrapingDemo.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.Mail.Activities": "[1.9.3]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5e8e232b-5f56-4bd5-8924-7b51d276fbaf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ScreenScrapingDemo.xaml",
+      "uniqueId": "65823133-f82a-4227-9f1a-58fea92ef06a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "DataScrapingDemo.xaml",
+      "uniqueId": "a73add54-0b9d-493e-a541-4863fe7901fc",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
